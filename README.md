@@ -9,7 +9,7 @@
 
 ## Our website is designed to be viwed on different screen sizes and its mobile screen friendly.
 
-## Ruff-Ruff in the feature will be updated with new helpfull  features and services like dog grummers, trainers ,pet shops, events and many more other usefull informations.
+## Ruff-Ruff in the feature will be updated with new helpfull  features and services like dog groomers, trainers ,pet shops, events and many more other usefull informations.
 
 ## Here are the resources for our project: 
 
