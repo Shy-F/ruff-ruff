@@ -14,8 +14,8 @@ function getCity(city) {
         .then(function (data) {
             console.log(data);
         })
-    
-        var city = []
+}
+       /* var city = []
         var storage = JSON.parse(localStorage.getItem("data"));
     
         if (storage === null) {
@@ -31,7 +31,7 @@ function getCity(city) {
         }
     } 
 
-
+*/
 
 
 
