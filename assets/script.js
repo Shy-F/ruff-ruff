@@ -14,8 +14,23 @@ function getCity(city) {
         .then(function (data) {
             console.log(data);
         })
+    
+        var city = []
+        var storage = JSON.parse(localStorage.getItem("data"));
+    
+        if (storage === null) {
+            citySearch.textContent = "City not found!"
+            
+        } else {
+            citySearch.textContent = '';
+            for (var i =0 ; i < storage.length; i++) {
+                var createLi = document.createElement("li")
+                createLi.textContent = 'city: ' + storage[i].data
+                citySearch.appendChild(createli);
+            }
+        }
+    } 
 
-}
 
 
 

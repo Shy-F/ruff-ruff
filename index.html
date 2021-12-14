@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <title>Ruff! Ruff!</title>
 </head>
 
@@ -56,39 +58,59 @@
         </div>
         <div class="col s6">
             <!--This is where the random pics of dogs would be inserted through javascript-->
-            <ul class='slides'>
-                <li class=''>
-                    <img src='assets/images/1.jpg'>
-                </li>
-                <li>
-                    <img src='assets/images/2.jpg'>
-                </li>
-                <li>
-                    <img src='assets/images/3.jpg'>
-                </li>
-                <li>
-                    <img src='assets/images/4.jpg'>
-                </li>
-                <li>
-                    <img src='assets/images/5.jpg'>
-                </li>
-                <li>
-                    <img src='assets/images/6.jpg'>
-                </li>
-                <li>
-                    <img src='assets/images/7.jpg'>
-                </li>
-                <li>
-                    <img src='assets/images/8.jpg'>
-                </li>
-                <li>
-                    <img src='assets/images/9.jpg'>
-                </li>
-                <li>
-                    <img src='assets/images/10.jpg'>
-                </li>
+            <div class="container">
+                <ul class="carousel">
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='assets/images/1.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='assets/images/2.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='assets/images/3.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='assets/images/5.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='assets/images/8.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='./assets/images/4.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='./assets/images/10.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='./assets/images/9.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='./assets/images/6.jpg' class="responsive-img">
+                        </a>
+                    </li>
                 </ul>
-                <!--<input type='radio' name='radio-btn' id='radio1'>
+            </div>
+        
+        </div>
+
+        <!--<input type='radio' name='radio-btn' id='radio1'>
                 <input type='radio' name='radio-btn' id='radio2'>
                 <input type='radio' name='radio-btn' id='radio3'>
                 <input type='radio' name='radio-btn' id='radio4'>
@@ -98,7 +120,9 @@
                 <input type='radio' name='radio-btn' id='radio8'>
                 <input type='radio' name='radio-btn' id='radio9'>
                 <input type='radio' name='radio-btn' id='radio10'>-->
-            </div>
+        </div>
+
+
 
 
 
@@ -126,7 +150,13 @@
     <footer class="page-footer" style="position:fixed;bottom:0;left:0;width:100%;">
         <h6> © 2021 Copyright Ohio State Bootcamp</h6>
     </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-
+    <script>
+        const small = document.querySelector('.carousel');
+        M.Carousel.init(small, {});
+    </script>
 </body>
+
 </html>
