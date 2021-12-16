@@ -33,7 +33,7 @@ https://apidocs.geoapify.com/
 https://github.com/Shy-F/ruff-ruff
 
 ## Github Pages URL:
-
+https://shy-f.github.io/ruff-ruff/
 
 ## Contributors:
 
